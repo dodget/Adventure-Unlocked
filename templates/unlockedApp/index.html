@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+{% extends 'unlockedApp/base.html' %}
+  {% block body_block %}
+  <div class="jumbotron tron-adventure">
+
+	<div class="row">
+
+		<div class="col-md-3">
+			<h1>Unlock an adventure!</h1>
+		</div>
+
+		<div class="col-md-3">
+			<p>Here is something to entice people to reach out</p>
+			<p>Click this button to learn more! <button class="btn btn-default" id="contactMeForm1">Reach Out</button></p>
+
+		</div>
+		<div class="col-md-6">
+			<div class="content contactMeForm contactMeForm1">
+				<form>
+					<h2>Contact us, today!</h2>
+					<div class="form-group">
+						<label for="exampleInputName">Name</label>
+						<input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter name">
+					</div>
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+					</div>
+					<div class="form-group">
+						<label for="exampleTextarea">Tell us where you may want to explore, and what you'd like to to</label>
+						<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary btn-block">Submit</button>
+
+				</form>
+			</div>
+		</div>
+
+	</div><!-- end of row one -->
+
+</div>
+<div class="jumbotron tron-aboutMe">
+	<div class="row">
+
+		<div class="col-md-3">
+			<h1>About Me</h1>
+		</div>
+
+		<div class="col-md-3">
+			<p>Here is some text about Ethan</p>
+			<p>Click this button to learn more! <button class="btn btn-default" id="aboutMeButton">Button!</button></p>
+
+		</div>
+		<div class="col-md-6">
+			<div class="content aboutMeContent">
+				<h2>here is the content</h2>
+			</div>
+		</div>
+
+	</div><!-- end of row one -->
+
+
+
+</div>
+<div class="jumbotron tron-philosophy">
+	<div class="row">
+		<div class="col-md-3">
+			<h1>Climbing philosophy</h1>
+		</div>
+		<div class="col-md-6">
+			<p>Here is some text about Ethan</p>
+			<p>Click this button to learn more! <button class="btn btn-default" id="philosophyButton">Button!</button></p>
+			<div class="content philosophyContent">
+				<h2>here is the content</h2>
+			</div>
+		</div>
+
+	</div>
+</div>
+<div class="jumbotron tron-services">
+	<div class="row">
+		<div class="col-md-3">
+			<h1>Services and Rates</h1>
+		</div>
+		<div class="col-md-3">
+			<p>All prices are boased on industry standards</p>
+			<p>Click this button to learn more!<button class="btn btn-default" id="servicesButton">Expand</button></p>
+		</div>
+		<div class="col-md-6">
+			<div class="content servicesContent">
+				<table class="table table-condensed">
+					<thead>
+						<tr>
+							<th>Persons</th>
+							<th>Daily Rate</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Single</td>
+							<td>$240</td>
+						</tr>
+						<tr>
+							<td>Double</td>
+							<td>$320</td>
+						</tr>
+						<tr>
+							<td>Triple</td>
+							<td>$390</td>
+						</tr>
+						<tr>
+							<td>Quad</td>
+							<td>$450</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<!--include a table with prices-->
+
+</div>
+<div class="jumbotron tron-2">
+
+	<h1>Contact me, today!</h1>
+	<div class="row">
+		<div class="col-md-2">
+		</div>
+		<div class="col-md-6">
+				<div class="contactMeForm">
+					<form>
+
+						<div class="form-group">
+							<label for="exampleInputName">Name</label>
+							<input type="text" class="form-control" id="exampleInputName" aria-describedby="nameHelp" placeholder="Enter name">
+						</div>
+						<div class="form-group">
+							<label for="exampleInputEmail1">Email address</label>
+							<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+						</div>
+						<div class="form-group">
+							<label for="exampleTextarea">Tell us where you may want to explore, and what you'd like to to</label>
+							<textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary btn-block">Submit</button>
+
+					</form>
+				</div>
+			</div>
+		</div>
+
+</div>
+
+  {% endblock %}
